@@ -1,0 +1,5 @@
+export const experienceBar = "flex items-center"
+export const experienceBarSpan = "text-base text-gray-500"
+export const experienceBarDiv = "flex-1 h-1 rounded-t bg-gray-300 mx-6 relative"
+export const experienceBarDivDiv = "w-4/12 h-1 bg-green-400"
+export const currentExperience = "text-gray-600 left-1/2 absolute top-px transform -translate-x-1/2"
