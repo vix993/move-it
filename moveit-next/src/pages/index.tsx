@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
       <ExperienceBar/>
 
-      <section className="flex-1 grid grid-cols-2 gap-24 content-center py-10 px-14">
+      <section className="flex-1 grid grid-cols-2 gap-24 content-center">
         <div className="">
           <Profile />
           <CompletedChallenges />
