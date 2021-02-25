@@ -6,6 +6,9 @@ module.exports = {
     fontFamily: {
       'sans': ['Inter', 'sans-serif'],
       'mono': ['Rajdhani', 'monospace']
+    },
+    maxWidth: {
+      '3/4': '75%',
     }
   },
   variants: {
