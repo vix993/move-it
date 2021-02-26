@@ -6,6 +6,7 @@ import { Countdown } from '../components/Countdown';
 
 import {ExperienceBar} from '../components/ExperienceBar';
 import { Profile } from '../components/Profile';
+import { CountdownProvider } from '../contexts/CountdownContext';
 
 
 export default function Home() {
@@ -16,16 +17,18 @@ export default function Home() {
       </Head>
       <ExperienceBar/>
 
-      <section className="flex-1 grid grid-cols-2 gap-24 content-center">
-        <div className="">
-          <Profile />
-          <CompletedChallenges />
-          <Countdown />
-        </div>
-        <div>
-          <ChallengeBox />
-        </div>
-      </section>
+      <CountdownProvider>
+        <section className="flex-1 grid grid-cols-2 gap-24 content-center">
+          <div className="">
+            <Profile />
+            <CompletedChallenges />
+            <Countdown />
+          </div>
+          <div>
+            <ChallengeBox />
+          </div>
+        </section>
+      </CountdownProvider>
     </div>
   )
 }
