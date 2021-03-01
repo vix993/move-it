@@ -25,3 +25,4 @@ Click start cycle to begin your work cycle and at the end of it receive your cha
 ##### /
 
 <img src="./presentation/screenshot.png" alt="screenshot of UI"/>
+<img src="./presentation/screenshot_levelup.png" alt="screenshot of levelup"/>
