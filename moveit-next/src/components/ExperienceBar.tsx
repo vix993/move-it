@@ -4,9 +4,7 @@ import { currentExperience } from "../styles/components/ExperienceBar.module";
 
 export const ExperienceBar = () => {
     const { currentXp, experienceToNextLevel } = useContext(ChallengesContext)
-    console.log(experienceToNextLevel, currentXp)
     const percentToNextLevel = Math.floor(currentXp * 100) / experienceToNextLevel;
-    console.log(percentToNextLevel)
     return (
         <header className="flex items-center">
             <span className="text-base text-gray-500">0 xp</span>
