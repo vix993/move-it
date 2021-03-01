@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { ChallengesContext } from "../contexts/ChallengesContext";
 
 export const LevelUpModal = () => {
-    const { level, closeLevelUpModal } = useContext(ChallengesContext)
+  const { level, closeLevelUpModal } = useContext(ChallengesContext)
   return (
     <div className="bg-blue-50 fixed inset-0 flex justify-center items-center bg-opacity-70">
       <div className="bg-white max-w-md px-8 py-12 rounded-md shadow text-center relative">
