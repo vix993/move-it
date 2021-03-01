@@ -24,4 +24,4 @@ Typescript, Tailwind Css, Next.js and more.
 Click start cycle to begin your work cycle and at the end of it receive your challenge and XP on completion.
 ##### /
 
-<img src="" alt="screenshot of UI"/>
+<img src="./presentation/screenshot.png" alt="screenshot of UI"/>
