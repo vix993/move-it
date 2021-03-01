@@ -23,6 +23,10 @@ Typescript, Tailwind Css, Next.js and more.
 #### timer and user details
 Click start cycle to begin your work cycle and at the end of it receive your challenge and XP on completion.
 ##### /
+###### App
 
 <img src="./presentation/screenshot.png" alt="screenshot of UI"/>
+
+###### Level-up
+
 <img src="./presentation/screenshot_levelup.png" alt="screenshot of levelup"/>
